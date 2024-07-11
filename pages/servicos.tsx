@@ -4,7 +4,7 @@ import servicesScreeen from "@ninjas/components/screens/ServicesScreen";
 export default websitePageHOC(servicesScreeen, {
   pageWrapperProps: {
     seoProps: {
-      headTitle: "Serviços",
+      headTitle: "Services",
     },
     menuProps: {
       display: true,

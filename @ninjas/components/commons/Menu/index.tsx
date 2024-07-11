@@ -16,15 +16,15 @@ const links: MenuLink[] = [
     url: "/",
   },
   {
-    text: "Sobre",
+    text: "About",
     url: "/sobre",
   },
   {
-    text: "Serviços",
+    text: "Services",
     url: "/servicos",
   },
   {
-    text: "Contato",
+    text: "Contact us",
     url: "/contato",
   },
 ];

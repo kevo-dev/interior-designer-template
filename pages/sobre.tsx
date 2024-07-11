@@ -4,7 +4,7 @@ import aboutScreen from "@ninjas/components/screens/AboutScreen";
 export default websitePageHOC(aboutScreen, {
   pageWrapperProps: {
     seoProps: {
-      headTitle: "Sobre",
+      headTitle: "About",
     },
     menuProps: {
       display: true,

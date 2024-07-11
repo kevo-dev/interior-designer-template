@@ -33,7 +33,7 @@ function FormEmail() {
     <form id="formEmail" onSubmit={form.handleSubmit}>
       <TextField
         tag="input"
-        placeholder="Nome"
+        placeholder="Name"
         name="username"
         value={form.values.username}
         onChange={form.handleChange}
@@ -49,7 +49,7 @@ function FormEmail() {
 
       <TextField
         tag="textarea"
-        placeholder="Digite sua mensagem aqui...."
+        placeholder="Enter your message here...."
         name="content"
         value={form.values.password}
         onChange={form.handleChange}
@@ -65,7 +65,7 @@ function FormEmail() {
         }}
         // fullWidth
       >
-        Enviar
+        Submit
       </Button>
     </form>
   );

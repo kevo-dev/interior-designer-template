@@ -62,10 +62,10 @@ export const Logo: React.FC<LogoProps> = ({ size }) => {
               fontWeight="bold"
               text-align="center"
             >
-              D E C O R E
+              POSH
             </tspan>
             <tspan x="367.84286" y="94.159187" text-align="center">
-              ABIENTES
+              INTERIORS
             </tspan>
           </text>
           <text

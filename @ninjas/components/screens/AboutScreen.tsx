@@ -46,7 +46,7 @@ const aboutScreen = () => {
               marginBottom={{ lg: "100px" }}
               fontFamily="Montserrat"
             >
-              Sobre nós
+              About us
             </Text>
 
             <Text
@@ -59,8 +59,8 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Em nossa empresa nós entendemos a importancia da beleza do seu
-              espaço.
+              In our company we understand the importance of the beauty of your
+              space.
             </Text>
             <Grid.Container
               paddingLeft={{ lg: 0 }}
@@ -138,7 +138,7 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Nossa Visão
+             Our vision
             </Text>
             <Text
               variant="paragraph2"
@@ -150,12 +150,12 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Na Empresa, nós entendemos a importancia das cores e decoração. Um
-              ambiente com cores certas muda o modo de como você se sente e isso
-              se aplica tanto a sua casa quanto a sua empresa. Um ambiente
-              decorado da maneira correta traz beleza e estilo para o seu dia a
-              dia. Se voce pensa em vender ou alugar sua casa ou área comercial,
-              uma boa decoração irá fazer a diferenca. Converse conosco!
+              At the Company, we understand the importance of colors and decoration. One
+ environment with the right colors changes the way you feel and this
+ applies to both your home and your business. An environment
+ Decorated the right way brings beauty and style to your everyday life.
+ day. If you are thinking about selling or renting your home or commercial area,
+ good decoration will make a difference. Chat with us!
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -195,7 +195,7 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Conheça nossa Equipe
+              Meet our Team
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -242,7 +242,7 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Profissional de Design formada pela Universinade Federal
+             Design Professional graduated from the University of Nairobi
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -289,8 +289,7 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Profissional de Design formada pela Escola Profissional de design
-              de interiores
+              Design Professional graduated from the Professional Design School.
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -337,7 +336,7 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Profissional de Design formada pela Faculdade de Design Estácio
+              Design Professional graduated from the Estácio Design Faculty
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -348,7 +347,7 @@ const aboutScreen = () => {
           marginBottom={{ xs: "20px", lg: "20px" }}
         >
           <Button tag="link" href="/contato" variant="primary.main">
-            Fale conosco
+          Contact us
           </Button>
         </Grid.Container>
 

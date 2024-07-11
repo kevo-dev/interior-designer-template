@@ -46,7 +46,7 @@ const contactScreen = () => {
               marginBottom={{ lg: "100px" }}
               fontFamily="Montserrat"
             >
-              Contato
+              Contact us
             </Text>
 
             <Grid.Container
@@ -77,7 +77,7 @@ const contactScreen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              <FiMapPin /> Rua 04, n° 333, Fortaleza - CE, 61621120
+              <FiMapPin /> Marcus Garvey Road, Kilimani. Nairobi
             </Text>
             <Text
               variant="paragraph1"
@@ -127,7 +127,7 @@ const contactScreen = () => {
               marginBottom={{ xs: "20px", lg: "50px" }}
               fontFamily="Montserrat"
             >
-              Preencha com seus dados e entraremos em contato
+              Fill in your details and we will contact you
             </Text>
           </Grid.Container>
           <Grid.Container width={{ xs: "400px", lg: "600px" }}>
@@ -147,7 +147,7 @@ const contactScreen = () => {
             textAlign={{ xs: "center", md: "center" }}
             fontFamily="Montserrat"
           >
-            ONDE ESTAMOS?
+            WHERE ARE WE?
           </Text>
         </Grid.Col>
         <Grid.Col

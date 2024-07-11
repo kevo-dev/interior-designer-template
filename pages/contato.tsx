@@ -4,7 +4,7 @@ import contactScreen from "@ninjas/components/screens/ContactScreen";
 export default websitePageHOC(contactScreen, {
   pageWrapperProps: {
     seoProps: {
-      headTitle: "Contato",
+      headTitle: "Contact us",
     },
     menuProps: {
       display: true,

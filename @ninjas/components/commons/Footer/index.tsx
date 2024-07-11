@@ -23,7 +23,7 @@ const Footer: React.FC<DefaultFooterWrapperProps> = (props) => {
           }}
           fontFamily="Montserrat"
         >
-          © 2021 Todos os direitos reservados | Easy Way Desenvolvimento Web
+          © 2021 Posh Interiors and Furniture
         </Text>
       </CentralSide>
     </FooterWrapper>

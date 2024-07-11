@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "posh-interiors-furniture",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -11,17 +11,19 @@
     "test:integration:open": "cypress open"
   },
   "dependencies": {
+    "@babel/runtime": "^7.24.8",
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
     "@crello/react-lottie": "^0.0.11",
     "csstype": "^3.0.8",
     "framer-motion": "^3.10.0",
     "lodash": "^4.17.20",
-    "next": "latest",
+    "next": "^14.2.5",
     "nookies": "^2.5.2",
+    "postcss": "^8.4.39",
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.2.0",
     "react-is": "^16.8.0",
     "styled-components": "^5.0.0",

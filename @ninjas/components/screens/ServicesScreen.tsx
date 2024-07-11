@@ -46,7 +46,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "100px" }}
               fontFamily="Montserrat"
             >
-              Serviços
+              Services
             </Text>
 
             <Text
@@ -59,8 +59,8 @@ const servicesScreeen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Em nossa empresa nós entendemos a importancia da beleza do seu
-              espaço.
+              In our company we understand the importance of the beauty of your
+              space.
             </Text>
             <Grid.Container
               paddingLeft={{ lg: 0 }}
@@ -108,7 +108,7 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                Interiores
+                Interiors
               </Text>
               <Text
                 variant="paragraph2"
@@ -120,9 +120,9 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                Na Empresa, nós entendemos a importancia das cores e decoração.
-                Um ambiente com cores certas muda o modo de como você se sente e
-                isso se aplica tanto a sua casa quanto a sua empresa.
+                At the Company, we understand the importance of colors and decoration.
+ An environment with the right colors changes the way you feel and
+ This applies to both your home and your business.
               </Text>
             </Grid.Container>
           </Grid.Container>
@@ -163,7 +163,7 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                Exteriores
+                Exteriors
               </Text>
               <Text
                 variant="paragraph2"
@@ -175,9 +175,9 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                Na Empresa, nós entendemos a importancia das cores e decoração.
-                Um ambiente com cores certas muda o modo de como você se sente e
-                isso se aplica tanto a sua casa quanto a sua empresa.
+                At the Company, we understand the importance of colors and decoration.
+ An environment with the right colors changes the way you feel and
+ This applies to both your home and your business.
               </Text>
             </Grid.Container>
           </Grid.Container>
@@ -219,7 +219,7 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                Ambiente Comerciais
+                Commercial Environment
               </Text>
               <Text
                 variant="paragraph2"
@@ -231,9 +231,9 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                Na Empresa, nós entendemos a importancia das cores e decoração.
-                Um ambiente com cores certas muda o modo de como você se sente e
-                isso se aplica tanto a sua casa quanto a sua empresa.
+                At the Company, we understand the importance of colors and decoration.
+ An environment with the right colors changes the way you feel and
+ This applies to both your home and your business.
               </Text>
             </Grid.Container>
           </Grid.Container>
@@ -275,7 +275,7 @@ const servicesScreeen = () => {
               }}
               fontFamily="Montserrat"
             >
-              Como trabalhamos?
+             How do we work?
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -300,7 +300,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              1. Entre em contato
+              1. Contact
             </Text>
             <Text
               variant="paragraph1"
@@ -314,7 +314,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              2. Nos fale o que Você imagina
+              2. Tell us what you imagine
             </Text>
             <Text
               variant="paragraph1"
@@ -328,7 +328,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              3. Iremos preparar um projeto base
+              3. We will prepare a base project
             </Text>
             <Text
               variant="paragraph1"
@@ -342,7 +342,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              4. Iniciaremos o projeto
+              4. We will start the project
             </Text>
             <Text
               variant="paragraph1"
@@ -356,7 +356,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              5. Tudo pronto!
+              5. All ready!
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -378,7 +378,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              Entre em contato por telefone, email ou redes sociais
+              Get in touch by phone, email or social media
             </Text>
             <Text
               variant="paragraph1"
@@ -392,7 +392,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              Nos fale sobre suas idéias e seus projetos
+             Tell us about your ideas and projects
             </Text>
             <Text
               variant="paragraph1"
@@ -406,8 +406,8 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              Vamos criar um plano inicial e revisaremos juntos todos os
-              detalhes
+              We will create an initial plan and review all the
+              details
             </Text>
             <Text
               variant="paragraph1"
@@ -421,7 +421,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              Quando todos os detalhes estiverem pronto vamos por a mão na massa{" "}
+              When all the details are ready, we will get to work.{" "}
             </Text>
             <Text
               variant="paragraph1"
@@ -435,7 +435,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              Projeto terminado e você estará feliz com seu novo espaço.
+              Project finished and you will be happy with your new space.
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -446,7 +446,7 @@ const servicesScreeen = () => {
           marginBottom={{ xs: "20px", lg: "20px" }}
         >
           <Button tag="link" href="/contato" variant="primary.main">
-            Fale conosco
+            Contact us
           </Button>
         </Grid.Container>
       </Grid.Row>

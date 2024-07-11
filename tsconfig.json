@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -15,13 +19,32 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@types": ["./types"],
-      "@theme": ["./src/theme"],
-      "@theme/*": ["./src/theme/*"],
-      "@patterns/*": ["./src/patterns/*"],
-      "@ninjas": ["./@ninjas/*"]
-    }
+      "@types": [
+        "./types"
+      ],
+      "@theme": [
+        "./src/theme"
+      ],
+      "@theme/*": [
+        "./src/theme/*"
+      ],
+      "@patterns/*": [
+        "./src/patterns/*"
+      ],
+      "@ninjas": [
+        "./@ninjas/*"
+      ]
+    },
+    "incremental": true
   },
-  "include": ["types/*", "next-env.d.ts", "**/*.ts", "**/*.tsx", "@ninjas/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "types/*",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "@ninjas/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

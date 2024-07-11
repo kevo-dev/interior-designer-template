@@ -7,13 +7,13 @@ export type SEOProps = {
 
 const SEO: React.FC<SEOProps> = ({ headTitle }) => {
   const hasHeadTitle = Boolean(headTitle);
-  const baseTitle = "Design de Interiores";
+  const baseTitle = "Posh Interiors";
   const title = hasHeadTitle ? `${headTitle} | ${baseTitle}` : baseTitle;
 
   const description =
-    "Seja visto de forma profissional na internet, alcance novos mercados para seus serviços ou produtos";
+    "Be seen professionally on the internet, reach new markets for your services or products";
   const image = "/images/seo.png";
-  const urlBase = "urldomeuprojeto.com.br";
+  const urlBase = "poshinteriors.vercel.app";
 
   return (
     <Head>

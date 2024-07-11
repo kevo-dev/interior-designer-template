@@ -53,7 +53,7 @@ function HomeScreen() {
               marginBottom={{ lg: "100px" }}
               fontFamily="Montserrat"
             >
-              Trazendo cor e belezar para sua Vida!
+              Bringing color and beauty to your life!
             </Text>
 
             <Text
@@ -66,8 +66,8 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Nossa missão? Transformar seus sonhos em realidade e tornar seu
-              espaço uma grande obra de arte!
+              Our mission? Turn your dreams into reality and make your
+              space a great work of art!
             </Text>
             <Grid.Container
               paddingLeft={{ lg: 0 }}
@@ -84,7 +84,7 @@ function HomeScreen() {
                   md: "initial",
                 }}
               >
-                Saiba mais
+                Know more
               </Button>
             </Grid.Container>
           </Grid.Container>
@@ -143,7 +143,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Nossos Serviços
+              Our services
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -178,7 +178,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Pinturas
+              Paintings
             </Text>
             <Text
               variant="paragraph1"
@@ -190,7 +190,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Encontre a melhor paleta para seu espaço
+              Find the best palette for your space
             </Text>
             <Grid.Container
               display="flex"
@@ -198,7 +198,7 @@ function HomeScreen() {
               marginBottom={{ xs: "10px" }}
             >
               <Button tag="link" href="/servicos" variant="primary.main">
-                Saiba mais
+                Know more
               </Button>
             </Grid.Container>
           </Grid.Container>
@@ -234,7 +234,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Consultoria
+              Consultancy
             </Text>
             <Text
               variant="paragraph1"
@@ -246,7 +246,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Tenha todo o suporte da nossa esquipe.
+              Get full support from our team.
             </Text>
             <Grid.Container
               display="flex"
@@ -254,7 +254,7 @@ function HomeScreen() {
               marginBottom={{ xs: "10px" }}
             >
               <Button tag="link" href="/servicos" variant="primary.main">
-                Saiba mais
+               Know more
               </Button>
             </Grid.Container>
           </Grid.Container>
@@ -290,7 +290,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Decore
+              Decorate
             </Text>
             <Text
               variant="paragraph1"
@@ -302,7 +302,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Preencha seus espaços com belos móveis
+              Fill your spaces with beautiful furniture
             </Text>
             <Grid.Container
               display="flex"
@@ -310,7 +310,7 @@ function HomeScreen() {
               marginBottom={{ xs: "10px" }}
             >
               <Button tag="link" href="/servicos" variant="primary.main">
-                Saiba mais
+                Know more
               </Button>
             </Grid.Container>
           </Grid.Container>
@@ -365,7 +365,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Entre em Contato
+            Contact us
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -425,7 +425,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Fale direto com conosco
+              Talk directly to us
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -485,7 +485,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Veja nossos todos nossos projetos
+             See our all our projects
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -545,7 +545,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Mande nos um email e nos conte sua idéia
+              Send us an email and tell us your idea
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -605,7 +605,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Veja nosso trabalho e a opinião dos clientes
+              See our work and customer opinions
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -623,7 +623,7 @@ function HomeScreen() {
               md: "initial",
             }}
           >
-            Saiba mais
+            Know more
           </Button>
         </Grid.Container>
         {/*  */}
@@ -660,7 +660,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Nossos projetos recentes
+              Our recent projects
             </Text>
           </Grid.Container>
         </Grid.Col>
