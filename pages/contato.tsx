@@ -2,12 +2,10 @@ import websitePageHOC from "@ninjas/components/wrappers/WebsitePage/hoc";
 import contactScreen from "@ninjas/components/screens/ContactScreen";
 
 export default websitePageHOC(contactScreen, {
-  pageWrapperProps: {
-    seoProps: {
-      headTitle: "Contact us",
-    },
-    menuProps: {
-      display: true,
-    },
+  seoProps: {
+    headTitle: "Contact us",
+  },
+  menuProps: {
+    display: true,
   },
 });

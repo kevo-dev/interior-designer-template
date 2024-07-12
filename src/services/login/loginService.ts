@@ -1,4 +1,4 @@
-import { setCookie, destroyCookie } from "nookies";
+import { destroyCookie } from "nookies";
 
 export const HttpClient = async <TBody>(
   url: string,
@@ -11,23 +11,23 @@ export const HttpClient = async <TBody>(
     },
     body: JSON.stringify(body),
     ...options,
-  }).then((respondeServer) => {
-    if (respondeServer.ok) {
-      return respondeServer.json() as Promise<TBody>;
+  }).then((response) => {
+    if (response.ok) {
+      return response.json() as Promise<TBody>;
     }
 
-    throw new Error("falha ao pegar os dados do servidor");
+    throw new Error("Failed to fetch data from the server");
   });
 };
 
 export const loginService = {
-  async login({ username, password }) {
+  async login({ username, password }: { username: string; password: string }) {
+    // Uncomment and implement the login logic if needed
     // return HttpClient(
     //   "https://instalura-api-omariosouto.vercel.app/api/login",
     //   {
     //     method: "POST",
     //     body: {
-    //       // object DTO = Data transfer object
     //       username,
     //       password,
     //     },

@@ -24,7 +24,8 @@ function FormEmail() {
 
         router.push("/app/profile");
       } catch (error) {
-        console.log(error);
+        // Handle the error appropriately
+        alert("Login failed. Please check your credentials.");
       }
     },
   });

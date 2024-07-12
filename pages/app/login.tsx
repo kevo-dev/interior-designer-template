@@ -69,17 +69,15 @@ function LoginScreen() {
 }
 
 export default websitePageHOC(LoginScreen, {
-  pageWrapperProps: {
-    seoProps: {
-      headTitle: "Login",
-    },
-    menuProps: {
-      display: false,
-    },
-    pageBoxProps: {
-      backgroundImage: "url(/images/bubbles.svg)",
-      backgroundRepeat: "no-repeat",
-      backgroundPosition: "bottom right",
-    },
+  seoProps: {
+    headTitle: "Login",
+  },
+  menuProps: {
+    display: false,
+  },
+  pageBoxProps: {
+    backgroundImage: "url(/images/bubbles.svg)",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "bottom right",
   },
 });

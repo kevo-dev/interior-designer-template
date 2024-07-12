@@ -120,9 +120,9 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                At the Company, we understand the importance of colors and decoration.
- An environment with the right colors changes the way you feel and
- This applies to both your home and your business.
+                At the Company, we understand the importance of colors and
+                decoration. An environment with the right colors changes the way
+                you feel and This applies to both your home and your business.
               </Text>
             </Grid.Container>
           </Grid.Container>
@@ -175,9 +175,9 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                At the Company, we understand the importance of colors and decoration.
- An environment with the right colors changes the way you feel and
- This applies to both your home and your business.
+                At the Company, we understand the importance of colors and
+                decoration. An environment with the right colors changes the way
+                you feel and This applies to both your home and your business.
               </Text>
             </Grid.Container>
           </Grid.Container>
@@ -231,9 +231,9 @@ const servicesScreeen = () => {
                 }}
                 fontFamily="Montserrat"
               >
-                At the Company, we understand the importance of colors and decoration.
- An environment with the right colors changes the way you feel and
- This applies to both your home and your business.
+                At the Company, we understand the importance of colors and
+                decoration. An environment with the right colors changes the way
+                you feel and This applies to both your home and your business.
               </Text>
             </Grid.Container>
           </Grid.Container>
@@ -275,7 +275,7 @@ const servicesScreeen = () => {
               }}
               fontFamily="Montserrat"
             >
-             How do we work?
+              How do we work?
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -392,7 +392,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-             Tell us about your ideas and projects
+              Tell us about your ideas and projects
             </Text>
             <Text
               variant="paragraph1"
@@ -406,8 +406,7 @@ const servicesScreeen = () => {
               marginBottom={{ lg: "50px" }}
               fontFamily="Montserrat"
             >
-              We will create an initial plan and review all the
-              details
+              We will create an initial plan and review all the details
             </Text>
             <Text
               variant="paragraph1"

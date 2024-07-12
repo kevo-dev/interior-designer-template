@@ -1,18 +1,16 @@
 import React from "react";
-import Image from "next/image";
+
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import Spacer from "@ninjas/components/commons/Spacer";
 import Text from "../@ninjas/components/foundation/Text";
 import { Button } from "../@ninjas/components/commons/Button";
 import { Grid } from "../@ninjas/components/foundation/Layout/Grid";
-import { WebsitePageContext } from "../@ninjas/components/wrappers/WebsitePage";
+
 import { Box } from "../@ninjas/components/foundation/Layout/Box";
 import websitePageHOC from "../@ninjas/components/wrappers/WebsitePage/hoc";
 
 function HomeScreen() {
-  const websitePageContext = React.useContext(WebsitePageContext);
-
   return (
     <Box display="flex" flexDirection="column" flex="1">
       <Grid.Row
@@ -66,8 +64,8 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-              Our mission? Turn your dreams into reality and make your
-              space a great work of art!
+              Our mission? Turn your dreams into reality and make your space a
+              great work of art!
             </Text>
             <Grid.Container
               paddingLeft={{ lg: 0 }}
@@ -254,7 +252,7 @@ function HomeScreen() {
               marginBottom={{ xs: "10px" }}
             >
               <Button tag="link" href="/servicos" variant="primary.main">
-               Know more
+                Know more
               </Button>
             </Grid.Container>
           </Grid.Container>
@@ -365,7 +363,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-            Contact us
+              Contact us
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -485,7 +483,7 @@ function HomeScreen() {
               }}
               fontFamily="Montserrat"
             >
-             See our all our projects
+              See our all our projects
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -731,17 +729,13 @@ function HomeScreen() {
 }
 
 export default websitePageHOC(HomeScreen, {
-  pageWrapperProps: {
-    seoProps: {
-      headTitle: "Home",
-    },
-    pageBoxProps: {
-      // backgroundImage: "url(/images/bubbles.svg)",
-      // backgroundRepeat: "no-repeat",
-      // backgroundPosition: "bottom right",
-    },
-    menuProps: {
-      display: true,
-    },
+  seoProps: {
+    headTitle: "Home",
+  },
+  pageBoxProps: {
+    // Add any additional pageBoxProps here if needed
+  },
+  menuProps: {
+    display: true,
   },
 });

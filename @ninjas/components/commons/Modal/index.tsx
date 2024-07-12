@@ -52,7 +52,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
     <ModalWrapper
       isOpen={isOpen}
       onClick={(event) => {
-         const target = event.target as Element;
+        const target = event.target as Element;
         const isSafeArea = target.closest('[data-modal-safe-area="true"]');
 
         if (!isSafeArea) {

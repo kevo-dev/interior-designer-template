@@ -1,26 +1,21 @@
 import React from "react";
-import { NextComponentType } from "next";
-import { BaseContext, NextPageContext } from "next/dist/next-server/lib/utils";
-
+import { NextComponentType, NextPageContext } from "next";
 import WebsitePageWrapper, { WebsitePageWrapperProps } from "..";
 import WebsiteGlobalProvider from "../provider";
 
-type WebsitePageHOCParams = {
-  pageWrapperProps?: WebsitePageWrapperProps;
+const withWebsitePage = (
+  PageComponent: NextComponentType<NextPageContext, any, any>,
+  pageWrapperProps: WebsitePageWrapperProps
+) => {
+  const WebsitePageHOC = (props: any) => (
+    <WebsiteGlobalProvider>
+      <WebsitePageWrapper {...pageWrapperProps}>
+        <PageComponent {...props} />
+      </WebsitePageWrapper>
+    </WebsiteGlobalProvider>
+  );
+
+  return WebsitePageHOC;
 };
 
-export default function websitePageHOC<
-  P,
-  IP = unknown,
-  C extends BaseContext = NextPageContext
->(PageComponent: NextComponentType<C, IP, P>, params?: WebsitePageHOCParams) {
-  return (props: P) => {
-    return (
-      <WebsiteGlobalProvider>
-        <WebsitePageWrapper {...params?.pageWrapperProps}>
-          <PageComponent {...props} />
-        </WebsitePageWrapper>
-      </WebsiteGlobalProvider>
-    );
-  };
-}
+export default withWebsitePage;

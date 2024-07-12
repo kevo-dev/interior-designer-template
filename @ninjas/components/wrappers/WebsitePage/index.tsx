@@ -20,6 +20,7 @@ export type WebsitePageWrapperProps = {
   menuProps?: {
     display?: boolean;
   };
+  children?: React.ReactNode;
 };
 
 const WebsitePageWrapper: React.FC<WebsitePageWrapperProps> = ({

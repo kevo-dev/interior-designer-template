@@ -138,7 +138,7 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-             Our vision
+              Our vision
             </Text>
             <Text
               variant="paragraph2"
@@ -150,12 +150,13 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-              At the Company, we understand the importance of colors and decoration. One
- environment with the right colors changes the way you feel and this
- applies to both your home and your business. An environment
- Decorated the right way brings beauty and style to your everyday life.
- day. If you are thinking about selling or renting your home or commercial area,
- good decoration will make a difference. Chat with us!
+              At the Company, we understand the importance of colors and
+              decoration. One environment with the right colors changes the way
+              you feel and this applies to both your home and your business. An
+              environment Decorated the right way brings beauty and style to
+              your everyday life. day. If you are thinking about selling or
+              renting your home or commercial area, good decoration will make a
+              difference. Chat with us!
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -242,7 +243,7 @@ const aboutScreen = () => {
               }}
               fontFamily="Montserrat"
             >
-             Design Professional graduated from the University of Nairobi
+              Design Professional graduated from the University of Nairobi
             </Text>
           </Grid.Container>
         </Grid.Col>
@@ -347,7 +348,7 @@ const aboutScreen = () => {
           marginBottom={{ xs: "20px", lg: "20px" }}
         >
           <Button tag="link" href="/contato" variant="primary.main">
-          Contact us
+            Contact us
           </Button>
         </Grid.Container>
 
