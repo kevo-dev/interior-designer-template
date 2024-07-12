@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import React, { ReactNode }from "react";
+import React, { ReactNode } from "react";
 import styled, { css } from "styled-components";
 import { Property } from "csstype";
 import { Variant, ColorVariant } from "@theme";
@@ -16,7 +16,6 @@ import { TextStyleVariantsMap } from "../../foundation/Text";
 interface ButtonDefaultProps {
   variant?: `${Variant}.${ColorVariant}`;
 }
-
 
 interface ButtonWrapperProps {
   ghost?: boolean;
@@ -95,7 +94,7 @@ const Button: React.FC<
   if (props.tag === "link") {
     return (
       <ButtonWrapper href={props.href} {...props} variant={variant} as={Link}>
-        {children}
+        {children as ReactNode}
       </ButtonWrapper>
     );
   }
@@ -103,7 +102,7 @@ const Button: React.FC<
   if (props.tag === "button") {
     return (
       <ButtonWrapper variant={variant} {...props} as="button">
-        {children as React.ReactNode}
+        {children as ReactNode}
       </ButtonWrapper>
     );
   }
