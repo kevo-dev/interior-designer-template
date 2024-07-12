@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import React from "react";
+import React, { ReactNode }from "react";
 import styled, { css } from "styled-components";
 import { Property } from "csstype";
 import { Variant, ColorVariant } from "@theme";
@@ -102,7 +102,7 @@ const Button: React.FC<
   if (props.tag === "button") {
     return (
       <ButtonWrapper variant={variant} {...props} as="button">
-        {children}
+        {children as React.ReactNode}
       </ButtonWrapper>
     );
   }
