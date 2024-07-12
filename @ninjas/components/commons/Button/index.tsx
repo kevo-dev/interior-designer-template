@@ -17,6 +17,7 @@ interface ButtonDefaultProps {
   variant?: `${Variant}.${ColorVariant}`;
 }
 
+
 interface ButtonWrapperProps {
   ghost?: boolean;
   fullWidth?: boolean;
